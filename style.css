@@ -1,0 +1,181 @@
+body{
+    text-align: center;
+}
+h1{
+    color:#00060a;
+        font-family: "Sail", system-ui;
+        font-weight: 900;
+        font-size: 60px;
+        font-style: normal;
+      
+}
+h2{
+    color: #000000;
+    font-size: 40px;
+    font-family: "Sail", system-ui;
+
+}
+h3{
+    color: #000000;
+    font-size: 30px;
+    font-family: "Sail", system-ui;
+
+}
+h4{
+    font-weight: 400;
+    font-style: normal;
+    color: #070707;
+    font-size: 20px;
+    max-width: 700px; 
+    margin: 20px auto; 
+    padding: 20px;
+    font-weight: bold;
+
+}
+img{
+    width:1000px;
+    border-radius: 20px;
+
+}
+p{
+  font-weight: 400;
+  font-style: normal;
+  color: #030303;
+  font-size: 20px;
+  max-width: 700px; 
+  margin: 20px auto; 
+  padding: 20px;
+}
+
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+/* Center the entire contact section container */
+#contact-me {
+    display: flex;
+    flex-direction: column; /* Stack headings, text, and form vertically */
+    align-items: center;    /* Center everything horizontally */
+    justify-content: center;
+    text-align: center;     /* Center the text within headings and paragraphs */
+    padding: 40px 20px;     /* Gives nice spacing on top and bottom */
+}
+
+/* Style the form container itself */
+.contact-form {
+    width: 100%;
+    max-width: 500px;       /* Keeps the form from getting too wide on large screens */
+    margin: 20px auto;      /* Centering fallback margin */
+    display: flex;
+    flex-direction: column;
+    text-align: left;       /* Keeps the labels and inputs aligned to the left inside the centered form */
+}
+/* Style all input fields and the text message area */
+.contact-form input, 
+.contact-form textarea {
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    width: 100%; /* Makes sure they fill the width of the form container */
+    box-sizing: border-box; /* Keeps padding from breaking the width calculation */
+}
+
+/* Specific styling to make the message box larger */
+.contact-form textarea {
+    height: 150px;       /* Forces the box to be taller vertically */
+    resize: vertical;    /* Allows the user to drag it taller if they have a long message, but stops it from breaking sideways */
+}
+
+/* Style the submit button so it matches the color theme */
+.contact-form button {
+    padding: 12px;
+    background-color: #000000; /* Light blue matching your h2/h3 headers */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.contact-form button:hover {
+    background-color: #000000; /* Shifts to the nav bar pink on hover */
+}
+/* Style the form layout container */
+.digital-form {
+    width: 100%;
+    max-width: 650px;       /* Gives long questions plenty of space */
+    margin: 20px auto;      /* Centers the form box on the page */
+    display: flex;
+    flex-direction: column; /* Stacks everything neatly from top to bottom */
+    text-align: left;       /* Keeps text left-aligned inside the centered form */
+}
+
+/* Style the question text */
+.digital-form label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #070707;
+    margin-top: 10px;       /* Space above the question text */
+}
+
+/* Style the dropdown menus and add vertical breathing room */
+.digital-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;        /* Space between the question text and its dropdown box */
+    margin-bottom: 30px;    /* THIS ADDS THE SPACE BEFORE THE NEXT QUESTION starts */
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+/* Style your submit button specifically inside this form */
+.digital-form button {
+    padding: 12px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.digital-form button:hover {
+    background-color: #000000;
+}
+
+.profile-pic {
+    width: 300px;         /* Scales the picture down to a clean, professional size */
+    height: auto;         /* Maintains the aspect ratio so it doesn't look stretched */
+    border-radius: 50%;   /* Optional: Changes the image border to a modern circle layout */
+    margin: 15px auto;    /* Centers it and adds breathing room around the text */
+    display: block;
+}

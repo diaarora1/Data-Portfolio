@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Portfolio: Digital Divide</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Preahvihear&family=Sail&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="title">Dia Arora | Data Portfolio</h1>
+    
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="bio.html">About Me</a>
+        <a href="wifi.html">NYC Public Wifi</a>
+        <a class="active" href="digitaldivide.html">Digital Divide Survey</a>
+        <a href="contact.html">Contact Me</a>
+    </div>
+
+    <section id="mission-statement" class="mission-section">
+        <h2>Digital Divide In California</h2>
+            <form action="https://formspree.io/f/maqzowzb" method="POST" class="digital-form">
+        <p>
+            Please take 60 seconds to fill out this quick survey about your local 
+            Wi-Fi reliability and internet access. I am collecting this data to run
+            an analysis exploring how infrastructure vary by location. Your response
+            will directly contribute to a live data science model tracking
+            connectivity gaps, helping us pinpoint exactly where our community
+            needs better support.
+        </p>
+        <h4>
+                <label for="city">City:</label>
+<select name="city" id="city" required>
+    <option value="" disabled selected>Select a city</option> 
+    <option value="Anaheim">Anaheim</option>
+    <option value="Anaheim Hills">Anaheim Hills</option>
+    <option value="Artesia">Artesia</option>
+    <option value="Bell Gardens">Bell Gardens</option>
+    <option value="Bellflower">Bellflower</option>
+    <option value="Buena Park">Buena Park</option>
+    <option value="Cerritos">Cerritos</option>
+    <option value="Chino">Chino</option>
+    <option value="Chino Hills">Chino Hills</option>
+    <option value="Commerce">Commerce</option>
+    <option value="Compton">Compton</option>
+    <option value="Corona">Corona</option>
+    <option value="Cudahy">Cudahy</option>
+    <option value="Cypress">Cypress</option>
+    <option value="Downey">Downey</option>
+    <option value="East Whittier">East Whittier</option>
+    <option value="Eastvale">Eastvale</option>
+    <option value="Fullerton">Fullerton</option>
+    <option value="Garden Grove">Garden Grove</option>
+    <option value="Hawaiian Gardens">Hawaiian Gardens</option>
+    <option value="Huntington Park">Huntington Park</option>
+    <option value="Jurupa Valley">Jurupa Valley</option>
+    <option value="La Habra">La Habra</option>
+    <option value="La Mirada">La Mirada</option>
+    <option value="La Palma">La Palma</option>
+    <option value="Lakewood">Lakewood</option>
+    <option value="Long Beach">Long Beach</option>
+    <option value="Los Alamitos">Los Alamitos</option>
+    <option value="Lynwood">Lynwood</option>
+    <option value="Maywood">Maywood</option>
+    <option value="Montebello">Montebello</option>
+    <option value="Norwalk">Norwalk</option>
+    <option value="Paramount">Paramount</option>
+    <option value="Pico Rivera">Pico Rivera</option>
+    <option value="Rancho Cucamonga">Rancho Cucamonga</option>
+    <option value="Rossmoor">Rossmoor</option>
+    <option value="San Dimas">San Dimas</option>
+    <option value="Santa Fe Springs">Santa Fe Springs</option>
+    <option value="Seal Beach">Seal Beach</option>
+    <option value="Signal Hill">Signal Hill</option>
+    <option value="South Gate">South Gate</option>
+    <option value="South Whittier">South Whittier</option>
+    <option value="Stanton">Stanton</option>
+    <option value="West Whittier-Los Nietos">West Whittier-Los Nietos</option>
+    <option value="Whittier">Whittier</option>
+    <option value="Other">Other</option>
+</select>
+                <br>
+                
+                <label for="type">Neighborhood Type:</label>
+                <select name="type" id="type" required>
+                    <option value="" disabled selected>Select a type</option>
+                    <option value="Residential">Residential</option>
+                    <option value="Commercial">Commercial</option>
+                    <option value="Industrial">Industrial</option>
+                    <option value="Rural">Rural</option>
+                </select>
+                <br>
+                
+                <label for="age">Age Group:</label>
+                <select name="age" id="age" required>
+                    <option value="" disabled selected>Select an age group</option>
+                    <option value="0-18">0-18</option>
+                    <option value="19-35">19-35</option>
+                    <option value="36-50">36-50</option>
+                    <option value="51-65">51-65</option>
+                    <option value="66+">66+</option>
+                </select>
+                <br>
+                
+                <label for="question1">What is your primary method of connecting to the internet at home?</label>
+                <select name="question1" id="question1" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="Private household Wi-Fi">Private household Wi-Fi</option>
+                    <option value="Cellular data/Hotspot">Cellular data/Hotspot</option>
+                    <option value="Public/City Wi-Fi">Public/City Wi-Fi</option>
+                    <option value="No reliable home internet">No reliable home internet</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br>
+                
+                <label for="provider">WiFi Provider:</label>
+                <select name="provider" id="provider" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="AT&T">AT&T</option>
+                    <option value="Spectrum">Spectrum</option>
+                    <option value="Verizon">Verizon</option>
+                    <option value="Frontier">Frontier</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br>
+                
+                <label for="question2">Where do you most frequently go when you need free public Wi-Fi?</label>
+                <select name="question2" id="question2" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="Library">Library</option>
+                    <option value="Cafe">Cafe</option>
+                    <option value="Public Park">Public Park</option>
+                    <option value="Community Center">Community Center</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br>
+                
+                <label for="satisfaction">On a scale of 1 to 5, how reliable is the free public Wi-Fi available in your neighborhood?</label>
+                <select name="satisfaction" id="satisfaction" required>
+                    <option value="" disabled selected>Select a rating</option>
+                    <option value="1">1 - Very Unreliable</option>
+                    <option value="2">2 - Unreliable</option>
+                    <option value="3">3 - Neutral</option>
+                    <option value="4">4 - Reliable</option>
+                    <option value="5">5 - Very Reliable</option>
+                </select>
+                <br>
+                
+                <label for="question3">Have you ever struggled to complete a school assignment, apply for a job, or access an essential service due to a poor internet connection?</label>
+                <select name="question3" id="question3" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="Yes, Frequently">Yes, Frequently</option>
+                    <option value="Yes, Occasionally">Yes, Occasionally</option>
+                    <option value="No, Never">No, Never</option>
+                </select>
+                <br>
+                
+                <label for="question4">What do you feel is the biggest barrier to high-speed internet access in your community?</label>
+                <select name="question4" id="question4" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="Cost">Cost</option>
+                    <option value="Availability">Availability</option>
+                    <option value="Speed">Speed</option>
+                    <option value="Reliability">Reliability</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </h4>
+    </section>
+</body>
+</html>

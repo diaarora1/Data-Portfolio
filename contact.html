@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Portfolio: Contact Me</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Preahvihear&family=Sail&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="title">Dia Arora | Data Portfolio</h1>
+
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="bio.html">About Me</a>
+        <a href="wifi.html">NYC Public Wifi</a>
+        <a href="digitaldivide.html">Digital Divide Survey</a>
+        <a class="active" href="contact.html">Contact Me</a>
+    </div>
+
+    <section id="contact-me" class="project-section">
+        <h2>Contact Me</h2>
+        <p>Have questions about my data projects or want to collaborate? Drop a message below!</p>
+        
+        <form action="https://formspree.io/f/mjgdyqby" method="POST" class="contact-form">
+            <h4>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Your Name">
+            <br>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="_replyto" required placeholder="your.email@example.com">
+            <br>
+            
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" placeholder="What is this regarding?">
+            <br>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Type your message here..."></textarea>
+            <br>
+            
+            <button type="submit">Send Message</button>
+        </h4>
+        </form>
+    </section>
+</body>
+</html>
